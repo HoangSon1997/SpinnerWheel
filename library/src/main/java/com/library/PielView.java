@@ -1,4 +1,4 @@
-package rubikstudio.library;
+package com.library;
 
 import android.animation.Animator;
 import android.animation.TimeInterpolator;
@@ -29,7 +29,7 @@ import java.util.Random;
 
 import androidx.annotation.IntDef;
 import androidx.core.graphics.ColorUtils;
-import rubikstudio.library.model.LuckyItem;
+import com.library.model.LuckyItem;
 
 /**
  * Created by kiennguyen on 11/5/16.

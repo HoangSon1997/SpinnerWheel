@@ -1,4 +1,4 @@
-package rubikstudio.library;
+package com.library;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -12,7 +12,16 @@
         android:theme="@style/Theme.SpinnerWheel"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ItemListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SpinListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

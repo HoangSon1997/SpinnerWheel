@@ -1,9 +1,4 @@
-package rubikstudio.library.model;
-
-/**
- * Created by kiennguyen on 11/5/16.
- */
-
+package com.library.model;
 public class LuckyItem {
     public String topText;
     public String secondaryText;

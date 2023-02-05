@@ -1,4 +1,4 @@
-package rubikstudio.library;
+package com.library;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package rubikstudio.library;
+package com.library;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,12 +13,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import java.util.List;
+import java.util.Random;
 
-import rubikstudio.library.model.LuckyItem;
-
-/**
- * Created by kiennguyen on 11/5/16.
- */
+import com.library.model.LuckyItem;
 
 public class LuckyWheelView extends RelativeLayout implements PielView.PieRotateListener {
     private int mBackgroundColor;
