@@ -1,4 +1,4 @@
-package com.example.spinnerwheel;
+package com.example.spinnerwheel.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
@@ -17,3 +17,4 @@ public class Wheel {
         this.id = id;
     }
 }
+

@@ -15,10 +15,10 @@ import android.widget.Toast;
 
 import com.example.spinnerwheel.R;
 import com.example.spinnerwheel.adapter.SpinListAdapter;
-import com.example.spinnerwheel.Wheel;
 import com.example.spinnerwheel.dao.WheelDAO;
-import com.example.spinnerwheel.holder.database.WheelDatabase;
+import com.example.spinnerwheel.database.WheelDatabase;
 import com.example.spinnerwheel.listener.ClickListener;
+import com.example.spinnerwheel.model.Wheel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -83,7 +83,7 @@ public class SpinListActivity extends AppCompatActivity implements ClickListener
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
-            case R.id.edit_menu:
+            case R.id.add_menu:
                 launchAdd();
                 return true;
             default:

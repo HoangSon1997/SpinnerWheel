@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:gravity="center"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="18dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/color_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_color_default_item"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_item"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="Title"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"/>
+
+        <Button
+            android:id="@+id/edit_item_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_margin="4dp"
+            android:textColor="#00FB0A"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/delete_item_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_margin="4dp"
+            android:background="@android:color/transparent"
+            android:textColor="#FB0000"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

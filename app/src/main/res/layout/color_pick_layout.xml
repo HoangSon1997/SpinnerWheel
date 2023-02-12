@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="horizontal"
+    android:weightSum="7">
+
+    <RadioGroup
+        android:id="@+id/color_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/color_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:background="@drawable/custom_color_radio_selector"
+            android:drawableEnd="@drawable/circle_color_default_item"
+            android:button="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/color_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_color_radio_selector"
+            android:drawableEnd="@drawable/circle_color_green_item"
+            android:button="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/color_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_color_radio_selector"
+            android:drawableEnd="@drawable/circle_color_black_item"
+            android:button="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_color_radio_selector"
+            android:drawableEnd="@drawable/circle_color_pink_item"
+            android:button="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/color_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_color_radio_selector"
+            android:drawableEnd="@drawable/circle_color_blue_item"
+            android:button="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/color_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_color_radio_selector"
+            android:drawableEnd="@drawable/circle_color_red_item"
+            android:button="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/color_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_color_radio_selector"
+            android:drawableEnd="@drawable/circle_color_yellow_item"
+            android:button="@android:color/transparent" />
+
+    </RadioGroup>
+
+</LinearLayout>

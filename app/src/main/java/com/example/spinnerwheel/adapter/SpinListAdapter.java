@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.spinnerwheel.R;
 import com.example.spinnerwheel.holder.SpinViewHolder;
-import com.example.spinnerwheel.Wheel;
 import com.example.spinnerwheel.listener.ClickListener;
+import com.example.spinnerwheel.model.Wheel;
 
 import java.util.ArrayList;
 import java.util.List;

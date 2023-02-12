@@ -1,4 +1,4 @@
-package com.example.spinnerwheel;
+package com.example.spinnerwheel.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
@@ -11,19 +11,19 @@ public class WheelItem {
     int id;
 
     @ColumnInfo(name="text")
-    String text;
+    public String text;
     @ColumnInfo(name="icon")
-    int icon;
+    public int icon;
     @ColumnInfo(name="secondaryText")
-    String secondaryText;
+    public String secondaryText;
     @ColumnInfo(name="detail")
-    String detail;
+    public String detail;
     @ColumnInfo(name = "color")
-    int color;
+    public int color;
     @ColumnInfo(name="wheelId")
-    int wheelId;
+    public int wheelId;
 
-    WheelItem() {
+    public WheelItem() {
 
     }
 }

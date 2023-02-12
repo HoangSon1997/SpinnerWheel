@@ -5,7 +5,7 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.example.spinnerwheel.Wheel;
+import com.example.spinnerwheel.model.Wheel;
 
 import java.util.List;
 

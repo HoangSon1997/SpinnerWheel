@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">SpinnerWheel</string>
+    <string name="app_name">Spinner Wheel</string>
+    <string name="wheel">Wheel</string>
+    <string name="name">Name</string>
+    <string name="icon">Icon</string>
+    <string name="color">Color</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
 </resources>
